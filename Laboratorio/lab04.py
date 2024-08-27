@@ -14,7 +14,8 @@ Golpes_Ryu = 0
 Golpes_Ken = 0
 
 Dano = int(input())
-while (HP_Ryu > 0) and (HP_Ken > 0): # Acho que o "and (HP_Ken > 0)" não fez nada... mas sei lá... Obs: o "and" funciona no while tbm, mas não sei o por quê de não estar fazendo nada, explicitamente... eu acho.
+while (HP_Ryu > 0) and (HP_Ken > 0): ## Acho que o "and (HP_Ken > 0)" não fez nada... mas sei lá... 
+ ## Obs: o "and" funciona no while tbm, mas não sei o por quê de não estar fazendo nada, explicitamente... eu acho.
  if (Dano < 0): # Ken ataca
    Golpes_Ken = Golpes_Ken + 1
    HP_Ryu = HP_Ryu + (Dano)
@@ -49,7 +50,8 @@ elif (HP_Ken <= 0):
  print("GOLPES RYU =", Golpes_Ryu) 
  print("GOLPES KEN =", Golpes_Ken)
 
-=================================================== (Não sei se tem alguma diferença entre esses dois códigos)
+
+## (Não sei se tem alguma diferença entre esses dois códigos)
 
 ###################################################
 # MC102 - Algoritmos e Programação de Computadores
