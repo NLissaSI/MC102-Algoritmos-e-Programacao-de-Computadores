@@ -5,7 +5,6 @@
 # RA: 186028
 ###################################################
 
-# (VERSÃO SEM AS MILHARES DE NOTAÇÕES)
 # Leitura de dados
   # Leitura do tabuleiro
     # Dica: use a função list() para transformar uma string numa lista de caracteres
@@ -65,16 +64,7 @@ for linha in tabuleiro:
 print(status_do_jogo)
 
 
-
-
-
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 11 - Tetris 2020
-# Nome: Nathaly Lissa S. Izawa
-# RA: 186028
-###################################################
-
+# (VERSÃO COM TODAS AS ANOTAÇÕES)
 # Leitura de dados
   # Leitura do tabuleiro
     # Dica: use a função list() para transformar uma string numa lista de caracteres
