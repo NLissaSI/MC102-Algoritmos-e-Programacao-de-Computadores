@@ -5,7 +5,6 @@
 # RA: 186028
 ###################################################
 
-## (VERSÃO SEM AS MILHARES DE NOTAÇÕES)
 ## Algumas funções...
 def compara_p(palavra, trecho):
   Lista_ast = [] ## Posições com asterisco
@@ -190,15 +189,7 @@ for linha in N_Malha:
   print(" ".join(linha)) ## O tabuleiro em si. Transforma uma lista em uma "string" MESMO (não o elemento que "linha" está apontando)
 
 
-## (VERSÃO COM TUDO)
-
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 10 - Caça-Palavras 2.0
-# Nome: Nathaly Lissa S. Izawa
-# RA: 186028
-###################################################
-
+## (VERSÃO COM TESTES DE FUNCIONAMENTO)
 def compara_p(palavra, trecho):
   Lista_ast = [] ## Posições com asterisco
   for h in range(len(trecho)):
