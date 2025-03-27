@@ -38,11 +38,10 @@ for k in range(altu_tabuleiro):
         m += 1
       else:
         break
-    if m == altu_peca:
+    if m == altu_peca: ## Se o m == altura_peca, então quer dizer que a peça se encaixou no tabuleiro
       break
   if m == altu_peca:
     break
-## Se o m == altura_peca, então quer dizer que a peça se encaixou no tabuleiro
 
 tabuleiro = Tabuleiro.copy()
 for w in range(len(tabuleiro)):
@@ -64,7 +63,7 @@ for linha in tabuleiro:
 print(status_do_jogo)
 
 
-# (VERSÃO COM TODAS AS ANOTAÇÕES)
+## (VERSÃO COM TESTES DE FUNCIONAMENTO)
 # Leitura de dados
   # Leitura do tabuleiro
     # Dica: use a função list() para transformar uma string numa lista de caracteres
@@ -114,11 +113,11 @@ for k in range(altu_tabuleiro):
       else:
         break
     print(m)  
-    if m == altu_peca:
+    if m == altu_peca: ## Se o m == altura_peca, então quer dizer que a peça se encaixou no tabuleiro
       break
   if m == altu_peca:
     break
-## Se o m == altura_peca, então quer dizer que a peça se encaixou no tabuleiro
+
 print(k, "\t", j, "\n")
 
 tabuleiro = Tabuleiro.copy()
